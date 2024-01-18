@@ -1,12 +1,63 @@
+#container {
+    width:1000px;
+    height: 270px;
+    margin:20px auto; }
+
+
+h1 {
+    text-align:center 
+}
+.prod-list {
+    list-style:none;
+    padding:0; }
+.prod-list li {
+    float: left;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;}
+.prod-list img {
+    margin:0;
+    padding:0;
+    float:left;
+    z-index:5;} 
+.prod-list .caption {
+    position: absolute;
+    top:200px;  
+    width:300px;
+    height:200px;
+    padding-top:20px;
+    background:rgba(0,0,0,0.6); 
+    opacity:0;  
+    transition: all 0.6s ease-in-out;  
+    z-index:10;  }
+.prod-list li:hover .caption {
+    opacity: 1; 
+    transform: translateY(-200px);  }  
+.prod-list .caption h2, .prod-list .caption p {
+    color: #fff;
+    text-align: center;}      
+
+
+
+
+
 footer{   
-    width:1200px auto;   /* 너비 */
-    height:100px;  /* 높이 */
     border-top:1px solid #222;
 }
+
+.contentbox{
+    width: 80vw;
+    margin: 0 auto;
+}
+.footerbox{
+    width: 1200px;
+    margin: 30px auto;
+}
 #bottomMenu{
-    width:100%;
+    width:800px;
     height:20px;
-    margin-left:60px;
+    margin:0 auto;
 }
 #bottomMenu ul {
     margin-top:15px;  
