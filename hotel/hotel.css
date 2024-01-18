@@ -1,5 +1,13 @@
 .container {display: flex; flex-direction: column; justify-content: center; align-items: center; padding:3em;}
 
+#wrap{width: 650px; border:1px soild red; 
+        margin:auto; padding-top: 10px; overflow: hidden; }
+article{float: left; margin-left: 10px; margin-bottom: 10px;}
+img{border-bottom: 1px solid black; display: block;}
+
+
+
+
 /* 객실네비게이션 */
 nav{margin-bottom: 2em ;}
 ul{display: flex; justify-content: center;}
