@@ -1,0 +1,33 @@
+.container {display: flex; flex-direction: column; justify-content: center; align-items: center; padding:3em;}
+
+/* 객실네비게이션 */
+nav{margin-bottom: 2em ;}
+ul{display: flex; justify-content: center;}
+li{list-style: none; margin-right: 0.5em; padding:0.5em;}
+li:hover{color:white; background-color: steelblue; border-radius: 2px;}
+
+
+/* 객실선택리스트 */
+ul li
+    {list-style-type: none; text-align: center; padding: 20px;}
+.ul{display: grid;
+    min-height: 88px;
+    padding: 10px 0px;
+    border-bottom: 1px solid var color(grey);
+    grid-template-columns: 500px 200px 160px auto 111px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 500px 200px 160px auto 111px;
+    grid-template-rows: 1fr;}
+button{cursor: pointer; position: relative;
+    display: block;
+    margin: 0px;}
+
+    table{ table-layout: fixed;
+        text-align: left;
+        width: 100%;
+        border-top: 1px solid #444444;
+        border-collapse: collapse;}
+    th {border-bottom: 1px solid #444444; padding: 10px;}
+    td {border-bottom: 1px solid #444444; padding: 10px;}
+    .jb-th-1 { width: 130px; height: 80px;}
+
