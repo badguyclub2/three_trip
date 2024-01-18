@@ -102,3 +102,10 @@
       display: flex;
       justify-content: space-between;
      }
+
+
+     @media screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+    }
