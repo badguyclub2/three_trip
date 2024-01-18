@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Document</title>
   <link rel="stylesheet" href="airplain.css">
 
@@ -181,14 +181,16 @@
       <br> : 1,058,200원
     </p>
    </h3>
-   <button class="button">다음으로</button>
+   <button class="button" onclick="location.href='/hotel/hotel.html' ">다음으로</button>
+
   </div>
 </div> 
 
-<div>
-  <p><a href="/itinerary/itinerary.html">이전페이지</a>
-    <a href="/hotel/hotel.html">다음페이지</a>
-  </p>
+<div class="buttons">
+<p>
+    <button class="prev" onclick="window.location.href = '/itinerary/itinerary.html'">이전으로</button>
+    <button class="next" onclick="window.location.href = '/hotel/hotel.html'">다음으로</button>
+</p>
   </div>
 </body>
 </html>

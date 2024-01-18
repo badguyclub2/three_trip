@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   background-color:#eee;
-  border:1px solid #222;
+  border:0px solid #222;
   margin-bottom:10px;
 
 }
@@ -89,5 +89,23 @@
     font-weight:bold;
     font-size: larger;
 
+    .prev {
+      float: left;
+    }
+  
+    .next {
+      float: right;
+    }
 
-    
+    .buttons {
+      clear: both;
+      display: flex;
+      justify-content: space-between;
+     }
+
+
+     @media screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+    }
