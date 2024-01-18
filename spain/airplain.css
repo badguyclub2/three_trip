@@ -22,3 +22,7 @@
   background-color:white;
   border-radius: 15px
 }
+
+ #opt01{
+    flex-direction: column;    
+}
