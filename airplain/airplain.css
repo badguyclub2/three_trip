@@ -39,6 +39,10 @@
     flex-direction: column;
 }
 
+#opt02{
+  justify-content: space-between;
+}
+
 #pricetext{
   color: orange;
   font-weight: bold;
@@ -102,10 +106,3 @@
       display: flex;
       justify-content: space-between;
      }
-
-
-     @media screen and (max-width: 600px) {
-      body {
-        background-color: lightblue;
-      }
-    }
