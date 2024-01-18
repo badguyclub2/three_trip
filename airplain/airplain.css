@@ -17,7 +17,7 @@
 
 .box {
   display: flex;
-  padding:5px;
+  padding: 0.5%;
   margin: 1rem;   
   width: 80%;
   background-color:white;
@@ -35,7 +35,7 @@
 }
 
 .items{
-  padding:15px;
+  padding:20px;
   background-color:white;
 }
 
@@ -50,3 +50,8 @@
   background-color:orange;
 }
 
+#bold{
+  font-weight: bold;
+  font-size: 110%;
+  text-align: center;
+}
