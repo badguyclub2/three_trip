@@ -72,6 +72,6 @@ footer{
     border:none;  /* 마지막 항목에는 오른쪽 테두리 없음 */  
 }
 #bottomMenu ul li a, #bottomMenu ul li a:visited {  
-    font-size:15px;  /* 글자 크기 */ 
-    color:#666;   /* 글자 색 */ 
+    font-size:15px;   
+    color:#666;    
 } 
