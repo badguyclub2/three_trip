@@ -42,8 +42,15 @@
 }
 
 #opt02{
-  justify-content: space-between;
+  flex-flow: space-between;
   font-size: 1.2vw;
+}
+
+#opt03{
+  flex-flow: space-between;
+  font-size: 1.2vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr))
 }
 
 #pricetext{
