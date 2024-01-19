@@ -83,7 +83,7 @@
 
 .scrollboxss {
   width: 15vw;
-  height: 22vw;
+  height: 25vw;
   border: 0px solid black;
   background-color: lemonchiffon;
   position: fixed; /* 또는 position: sticky */
